@@ -1,0 +1,15 @@
+%messange{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  border: 1px solid black;
+}
+$color: white;
+.success{
+@extend %messange;
+background-color: $color ;
+}
+.wizar{
+  @extend %messange;
+  background-color: $color;
+}
